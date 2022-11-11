@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "weightedSHAP"
+version = "0.0.1"
+authors = [
+  { name="Example Author", email="author@example.com" },
+]
+description = "WeightedSHAP: analyzing and improving Shapley based feature attributions (NeurIPS 2022)"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+ 'torch >= 1.10',
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ykwon0407/WeightedSHAP"
+
+
